@@ -1,0 +1,9 @@
+@font-face {
+    font-family: '28dayslater';
+    src: url('./28dayslater.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+h1, h2 {
+    font-family: '28dayslater';
+}
