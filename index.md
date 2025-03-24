@@ -10,10 +10,10 @@ hero:
 
 features:
   - title: Chernarus
-    details: Seasonal mod. / 60 players / Bases
+    details: Seasonal mod / 60 players / Bases
     link: /servers/chernarus
   - title: Deadfall 2.0
-    details: Deadfall 2.0 / 40 Players / custom aliens / no bases
+    details: Deadfall 2.0 / 40 Players / Custom Aliens / No Bases
     link: /servers/deadfall
   - title: Livonia
     details: 60 players / Bases

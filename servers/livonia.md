@@ -13,7 +13,7 @@ The Republic of Chernarus (Chernarussian: Republika Černarus, Russian: Респ
 - 60 Players
 
 ## IP Address
-103.193.80.11:2602
+103.193.80.87:2402
 
 ## Restarts
 <div class="restart-times">
