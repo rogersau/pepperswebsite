@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme-without-fonts'
+import LocalTime from '../../components/LocalTime.vue'
 import './style.css'
 import './font.css'
 
@@ -13,6 +14,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('LocalTime', LocalTime)
   }
 } satisfies Theme

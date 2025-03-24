@@ -9,21 +9,20 @@ hero:
     src: /sgtpepper.png
 
 features:
-  - title: Sakhal
-    details: 50 players
-    link: /servers/sakhal
   - title: Chernarus
-    details: Winter mod. 60 players
+    details: Seasonal mod. / 60 players / Bases
     link: /servers/chernarus
+  - title: Deadfall 2.0
+    details: Deadfall 2.0 / 40 Players / custom aliens / no bases
+    link: /servers/deadfall
   - title: Livonia
-    details: 60 players
+    details: 60 players / Bases
+    link: /servers/Livonia
   - title: Sakhal
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /api-examples
-  - title: Chernarus (Winter)
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-    link: /api-examples
-  - title: Livonia
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: 50 players / Bases
+    link: /servers/sakhal
+  - title: Namalsk
+    details: 40 Players / No Bases / Move Adventure / PVP
+    link: /servers/namalsk
 ---
 

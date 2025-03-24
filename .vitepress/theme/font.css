@@ -1,9 +1,10 @@
-@font-face {
-    font-family: '28dayslater';
-    src: url('./28dayslater.woff2') format('woff2');
-    font-weight: normal;
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+.rubik-distressed-regular {
+    font-family: "Rubik Distressed", system-ui;
+    font-weight: 400;
     font-style: normal;
-}
-h1, h2 {
-    font-family: '28dayslater';
+  }
+h1, h2, h3 {
+    font-family: 'Rubik Distressed';
 }

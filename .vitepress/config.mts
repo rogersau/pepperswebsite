@@ -4,47 +4,40 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Sgt. Peppers DayZ Invasion",
   description: "DayZ Invasion",
-  transformHead({ assets }) {
-    const fontFile = assets.find(file => /28dayslater\.\w+\.woff2/.test(file))
-    if (fontFile) {
-      return [
-        [
-          'link',
-          {
-            rel: 'preload',
-            href: fontFile,
-            as: 'font',
-            type: 'font/woff2',
-            crossorigin: ''
-          }
-        ]
-      ]
-    }
-  },
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+  ],
   themeConfig: {
     logo: '/sgtpepper.png',
     footer: {
-      copyright: '© 2024 Sgt. Pepper\'s DayZ Invasion',
+      copyright: '© 2025 Sgt. Pepper\'s DayZ Invasion',
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Servers', link: '/servers/sakhal' }, // Assuming the link is to a page listing servers, changed for clarity
-      { text: 'FAQ', link: '/faq/lifetimes' },
+      { text: 'Servers', link: '/servers/chernarus' }, // Assuming the link is to a page listing servers, changed for clarity
+      { text: 'FAQ', link: '/faq' },
     ],
 
     sidebar: [
       {
         text: 'Servers',
         items: [
-          { text: 'Sakhal', link: '/servers/sakhal' },
           { text: 'Chernarus', link: '/servers/chernarus' },
+          { text: 'Deadfall', link: '/servers/deadfall' },
+          { text: 'Livonia', link: '/servers/Livonia' },
+          { text: 'Namalsk', link: '/servers/Namalsk' },
+          { text: 'Sakhal', link: '/servers/sakhal' },
         ]
       },
       {
         text: 'FAQ',
         items: [
-          { text: 'Lifetimes', link: '/faq/lifetimes' },
+          { text: 'General', link: '/faq#general' },
+          { text: 'Server Rules', link: '/faq#server-rules' },
+          { text: 'Common Mods', link: '/faq#common-mods' },
+          { text: 'Lifetimes', link: '/faq#lifetimes' },
+          { text: 'Support', link: '/faq#support' },
         ]
       }
     ],
