@@ -17,7 +17,7 @@ features:
     link: /servers/deadfall
   - title: Livonia
     details: 60 players / Bases
-    link: /servers/Livonia
+    link: /servers/livonia
   - title: Sakhal
     details: 50 players / Bases
     link: /servers/sakhal

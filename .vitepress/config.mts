@@ -25,8 +25,8 @@ export default defineConfig({
         items: [
           { text: 'Chernarus', link: '/servers/chernarus' },
           { text: 'Deadfall', link: '/servers/deadfall' },
-          { text: 'Livonia', link: '/servers/Livonia' },
-          { text: 'Namalsk', link: '/servers/Namalsk' },
+          { text: 'Livonia', link: '/servers/livonia' },
+          { text: 'Namalsk', link: '/servers/namalsk' },
           { text: 'Sakhal', link: '/servers/sakhal' },
         ]
       },
