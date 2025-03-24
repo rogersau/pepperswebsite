@@ -7,6 +7,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
+  srcExclude: ['**/README.md'],
   themeConfig: {
     logo: '/sgtpepper.png',
     footer: {
