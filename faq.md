@@ -10,7 +10,7 @@ next: false
 > A: The aim of Peppers servers is to maintain a vanilla DayZ experience while incorporating quality-of-life mods. In some cases, mods are chosen based on community votes.
 
 **Q: I really like the servers. Is there a way to donate?**
-> A: Although the servers are expensive to operate and require significant time to manage, our preference is for community members to enjoy the maps and treat one another with civility during gameplay. Your participation and positive interactions are the best form of support! 
+> A: Although the servers are expensive to operate and require significant time to manage, our preference is for community members to enjoy the maps and treat one another with civility during gameplay. Your participation, telling others about our servers and positive interactions are the best form of support! 
 
 **Q: Are Peppers servers PVP or PVE?**
 > A: Peppers servers are PVP. However, as always, interactions with others are what make DayZ an engaging experience.
@@ -37,13 +37,14 @@ next: false
 
 ## Server Rules
 
-1. Don't be a racist or sexist chunt
-1. Don't be a dick
-1. No combat logging
-1. No hax0rs
-1. Keep it clean
-1. Don't make it personal
-1. Play the game 
+We want the servers to be as close to official as possible. However as we are a community we expect the following of our players:
+
+1. You MUST respect other players. They are humans after all.
+1. We DO NOT tolerate racist, sexist, homophobic slurs nor do we accept trolling.
+1. You MUST NOT log out when engaged in combat.
+1. DO NOT use game bugs/glitches/cheats to gain an advantage in any situation
+1. You MUST NOT meta game, stream snipe or stalk
+1. DO NOT make it personal. Keep it in the game. 
 
 ## Common Mods
 
@@ -75,7 +76,6 @@ The following mods are enabled on the servers are are not repacked.
 |---|---|
 |Limited windstride clothing|Only items that fit within the game are enabled to spawn. Items that server no purpose are disabled|
 |Notes|Pens spawn to allow you to leave notes behind. Potentially use it at your base. Or let someone know you were in their base.|
-|Code Locks|Replaces the vanilla dial locks for servers with building enabled. Spawns in the same locations as combination locks|
 |Code Locks|Replaces the vanilla dial locks for servers with building enabled. Spawns in the same locations as combination locks|
 |Ear Plugs|Use N to toggle ear plugs and cycle through volume reduction. Super helpful when in the car... or during a blizzard!|
 |Scopes & Mounts|Spawns within the Sgt. Peppers briefcase and requires a key to open. Modern scopes and mounts for various guns. Such us Pilad, Eotech XPS and OKP.|
