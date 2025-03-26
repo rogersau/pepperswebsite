@@ -6,6 +6,13 @@ export default defineConfig({
   description: "DayZ Invasion",
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // Open Graph / Facebook
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://sgtpepper.au' }],
+    ['meta', { property: 'og:title', content: 'Sgt. Peppers DayZ Invasion' }],
+    ['meta', { property: 'og:description', content: 'DayZ Vanilla+ servers with quality-of-life improvements' }],
+    ['meta', { property: 'og:image', content: 'https://sgtpepper.au/sgtpeppersbanner.png' }],
+        
   ],
   srcExclude: ['**/README.md'],
   themeConfig: {
